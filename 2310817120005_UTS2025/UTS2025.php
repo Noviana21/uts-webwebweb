@@ -164,8 +164,7 @@
 
             if (rows.length === 1) {
                 const akhir = rows[0];
-                const deleteButton = akhir.querySelector('button');
-                if (deleteButton) {
+                if (akhir.querySelector('button')) {
                     deleteButton.parentElement.remove(); 
                 }
             }
