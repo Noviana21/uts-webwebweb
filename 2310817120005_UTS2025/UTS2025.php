@@ -165,7 +165,7 @@
             if (rows.length === 1) {
                 const akhir = rows[0];
                 if (akhir.querySelector('button')) {
-                    deleteButton.parentElement.remove(); 
+                    akhir.querySelector('button').parentElement.remove(); 
                 }
             }
         }
